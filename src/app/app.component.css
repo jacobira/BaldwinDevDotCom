@@ -1,0 +1,13 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+.menu {
+    height: 150px;
+    width: 100%;
+    background-color: lightgray;
+}
+.content {
+    height: calc((100%)-(150px));
+    width: 100%;
+}
