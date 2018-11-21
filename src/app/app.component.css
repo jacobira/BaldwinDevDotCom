@@ -1,13 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script|Raleway");
+
 .container {
     height: 100%;
     width: 100%;
+    display: flex;
 }
 .menu {
+    height: 100%;
+    width: 250px;
+    background-color: lightgray;
+    position: sticky;
+}
+.logoSec {
     height: 150px;
     width: 100%;
-    background-color: lightgray;
+}
+.logoSec div {
+    height: 50px;
+    font-family: "Oleo Script";
+    font-size: 60px;
+}
+.logoSec #first {
+    margin-left: 10px;
+}
+.logoSec #last {
+    margin-left: 30px;
+}
+.optionsSec {
+    width: 100%;
+    margin-top: 50px;
+}
+.optionsSec div {
+    padding: 20px;
+    width: 180px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-family: "Raleway";
+    font-size: 30px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px;
 }
 .content {
-    height: calc((100%)-(150px));
-    width: 100%;
+    height: 100%;
+    width: calc((100%)-(300px));
 }
