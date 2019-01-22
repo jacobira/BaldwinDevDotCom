@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Oleo+Script|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Raleway");
+
 
 .container {
     height: 100%;
     width: 100%;
     display: flex;
+    background-image: url('backdrop.jpg');
+    background-size: cover;
 }
 .menu {
     height: 100%;
     width: 250px;
-    background-color: lightgray;
+    background-color: rgb(133, 202, 214, .8);
     position: sticky;
 }
 .logoSec {
@@ -17,14 +20,23 @@
 }
 .logoSec div {
     height: 50px;
-    font-family: "Oleo Script";
     font-size: 60px;
+    font-family: 'Pacifico', cursive;
 }
 .logoSec #first {
     margin-left: 10px;
 }
 .logoSec #last {
     margin-left: 30px;
+    display: flex;
+}
+.logoSec #last #dotcom{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 5px;
+    color: rgb(25, 58, 119);
+    font-family: 'Raleway';
+    text-shadow: 0px 0px 1px lightgray;
 }
 .optionsSec {
     width: 100%;
@@ -38,11 +50,19 @@
     font-family: "Raleway";
     font-size: 30px;
     text-align: center;
-    background-color: lightblue;
-    border-radius: 3px;
+    background-color: #75A6BD;
     box-shadow: 0px 0px 10px;
+    cursor: pointer;
+    transition-duration: .2s;
+    outline: none;
+}
+.optionsSec div:hover {
+    transition-duration: .2s;
+    transform: scale(1.05);
+    background-color: rgb(25, 58, 119);
+    color: lightgray;
 }
 .content {
     height: 100%;
-    width: calc((100%)-(300px));
+    width: calc(100% - 250px);
 }

@@ -1,0 +1,17 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .stndText {
+    font-family: 'Raleway';
+    color: black;
+    /* text-shadow: 0 0 1px black; */
+}
+.container .wrapper {
+    height: 610px;
+    width: 820px;
+    background-color: rgb(0,0,0,.7);
+}

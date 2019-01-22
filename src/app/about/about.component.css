@@ -1,0 +1,74 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .stndText {
+    font-family: 'Raleway';
+    color: lightgray;
+    font-size: 20px;
+    /* text-shadow: 0 0 1px black; */
+}
+.container .wrapper {
+    height: 610px;
+    width: 820px;
+    background-color: rgb(0,0,0,.7);
+}
+.container .wrapper .education {
+    height: calc(50% - 50px);
+    width: 100%;
+    margin-top: 50px;
+}
+.container .wrapper .education .top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .wrapper .education .top .afhs {
+    height: 100px;
+    width: 150px;
+    background-image: url('../afhsLogo.png');
+    background-size: cover;
+    margin-left: 40px;
+}
+.container .wrapper .education .top .describe {
+    margin-left: 40px;
+}
+.container .wrapper .education .bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .wrapper .education .bottom .mtech {
+    height: 150px;
+    width: 150px;
+    background-image: url('../mtechLogo.png');
+    background-size: cover;
+    margin-left: 40px;
+}
+.container .wrapper .education .bottom .describe {
+    margin-left: 40px;
+}
+.container .wrapper .personalLife {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.container .wrapper .personalLife .describe {
+    margin-left: 40px;
+    width: calc(100% - 282px);
+    text-align: right;
+}
+.container .wrapper .personalLife .pic {
+    height: 150px;
+    width: 152px;
+    margin-left: 40px;
+    background-image: url('../weddingPic.png');
+    background-size: cover;
+}

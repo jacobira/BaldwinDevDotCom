@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Raleway");
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .stndText {
+    font-family: 'Raleway';
+    color: black;
+    /* text-shadow: 0 0 1px black; */
+}
+.container .wrapper {
+    height: 610px;
+    width: 820px;
+    background-color: rgb(0,0,0,.7);
+}
+.container .wrapper .viewport {
+    height: 100%;
+    width: 100%;
+}
+.container .wrapper .portfolioItem {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .wrapper .portfolioItem .itemBox {
+    height: 75px;
+    width: 95%;
+    background-image: linear-gradient(to right, rgb(133, 202, 214) 70%, rgb(255,255,255,0));
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
+.container .wrapper .portfolioItem .itemBox .itemName {
+    font-size: 30px;
+    margin-left: 10px;
+}
