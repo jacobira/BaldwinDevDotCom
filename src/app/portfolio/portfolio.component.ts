@@ -12,6 +12,20 @@ export class PortfolioComponent implements OnInit {
   ngOnInit() {
   }
 
-  portfolioItems: string[] = ['MTECH Capstone Project', 'Chat Application (Backend)'];
+  portfolioItems: any[] = [{
+    "name": "Efficient - Restaurant Management",
+    "url": "",
+    "github": "https://github.com/jacobira/restaurantManagerApp"
+  },
+  {
+    "name": "Chat Application Server (No UI)",
+    "url": "",
+    "github": "https://github.com/jacobira/MtechLab10-ChatClientServer"
+  },
+  {
+    "name": "Multi-Timer App",
+    "url": "",
+    "github": "https://github.com/jacobira/react-timer-project"
+  }];
 
 }

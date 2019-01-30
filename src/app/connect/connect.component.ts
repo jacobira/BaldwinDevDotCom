@@ -12,4 +12,8 @@ export class ConnectComponent implements OnInit {
   ngOnInit() {
   }
 
+  navigate(url){
+    window.location.href = url;
+  }
+
 }

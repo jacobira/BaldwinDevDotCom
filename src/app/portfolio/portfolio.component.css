@@ -35,10 +35,36 @@
     background-image: linear-gradient(to right, rgb(133, 202, 214) 70%, rgb(255,255,255,0));
     display: flex;
     align-items: center;
-    cursor: pointer;
     outline: none;
+    transition: .2s;
+}
+.container .wrapper .portfolioItem .itemBox:hover {
+    transition: .2s;
+    text-shadow: 0 0 2px white;
+    transform: scale(1.02);
 }
 .container .wrapper .portfolioItem .itemBox .itemName {
     font-size: 30px;
     margin-left: 10px;
+}
+.container .wrapper .portfolioItem .itemBox .github {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .wrapper .portfolioItem .itemBox .github .btn {
+    height: 60%;
+    width: 80px;
+    background-color: rgb(25, 25, 25, .7);
+}
+.container .wrapper .portfolioItem .itemBox .github .btn .label {
+    height: 100%;
+    width: 70%;
+}
+.container .wrapper .portfolioItem .itemBox .github .btn .icon {
+    height: 100%;
+    width: 30%;
+    background-image: url("../githublogo.png");
+    background-size: cover;
 }
