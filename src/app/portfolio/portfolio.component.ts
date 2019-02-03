@@ -14,17 +14,17 @@ export class PortfolioComponent implements OnInit {
 
   portfolioItems: any[] = [{
     "name": "Efficient - Restaurant Management",
-    "url": "",
+    "url": "www.baldwindev.com/efficient",
     "github": "https://github.com/jacobira/restaurantManagerApp"
   },
   {
     "name": "Chat Application Server (No UI)",
-    "url": "",
+    "url": "https://github.com/jacobira/MtechLab10-ChatClientServer",
     "github": "https://github.com/jacobira/MtechLab10-ChatClientServer"
   },
   {
     "name": "Multi-Timer App",
-    "url": "",
+    "url": "www.baldwindev.com/multiTimer",
     "github": "https://github.com/jacobira/react-timer-project"
   }];
 
