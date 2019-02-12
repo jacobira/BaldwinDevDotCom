@@ -26,7 +26,7 @@ const appRoutes: Routes = [
     ConnectComponent
   ],
   imports: [
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, { useHash: true }),
     BrowserModule,
     ScrollDispatchModule
   ],
