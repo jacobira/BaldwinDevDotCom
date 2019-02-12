@@ -14,7 +14,7 @@ export class PortfolioComponent implements OnInit {
 
   portfolioItems: any[] = [{
     "name": "Efficient - Restaurant Management",
-    "url": "www.baldwindev.com/efficient",
+    "url": "http://www.baldwindev.com/efficient",
     "github": "https://github.com/jacobira/restaurantManagerApp"
   },
   {
@@ -24,8 +24,12 @@ export class PortfolioComponent implements OnInit {
   },
   {
     "name": "Multi-Timer App",
-    "url": "www.baldwindev.com/multiTimer",
+    "url": "http://www.baldwindev.com/multiTimer",
     "github": "https://github.com/jacobira/react-timer-project"
   }];
+
+  navigate(item){
+    window.location.href = item.url;
+  }
 
 }

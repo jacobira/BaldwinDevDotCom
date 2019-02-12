@@ -5,13 +5,11 @@
     </div>
     <cdk-virtual-scroll-viewport class="viewport" itemSize="50">
       <div class="portfolioItem" *cdkVirtualFor="let item of portfolioItems">
-        <a href="{{item.url}}">
-          <div class="itemBox">
-            <div class="itemName stndText">
-              {{ item.name }}
-            </div>
+        <div class="itemBox" (click)="navigate(item)">
+          <div class="itemName stndText">
+            {{ item.name }}
           </div>
-        </a>
+        </div>
       </div>
     </cdk-virtual-scroll-viewport>
   </div>

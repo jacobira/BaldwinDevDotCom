@@ -21,7 +21,7 @@
     height: 100%;
     width: 100%;
 }
-.container .wrapper .portfolioItem {
+.container .wrapper .viewport .portfolioItem {
     height: 100px;
     width: 100%;
     display: flex;
@@ -29,7 +29,7 @@
     align-items: center;
 
 }
-.container .wrapper .portfolioItem .itemBox {
+.container .wrapper .viewport .portfolioItem .itemBox {
     height: 75px;
     width: 95%;
     background-image: linear-gradient(to right, rgb(133, 202, 214) 70%, rgb(255,255,255,0));
@@ -38,7 +38,7 @@
     outline: none;
     transition: .2s;
 }
-.container .wrapper .portfolioItem .itemBox:hover {
+.container .wrapper .viewport .portfolioItem .itemBox:hover {
     transition: .2s;
     text-shadow: 0 0 2px white;
     transform: scale(1.02);
