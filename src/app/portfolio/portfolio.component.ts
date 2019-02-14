@@ -14,7 +14,7 @@ export class PortfolioComponent implements OnInit {
 
   portfolioItems: any[] = [{
     "name": "Efficient - Restaurant Management",
-    "url": "http://www.baldwindev.com/efficient",
+    "url": "http://www.raspberryfactory.com",
     "github": "https://github.com/jacobira/restaurantManagerApp"
   },
   {
