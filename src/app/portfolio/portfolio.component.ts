@@ -19,8 +19,8 @@ export class PortfolioComponent implements OnInit {
   },
   {
     "name": "Chat Application Server (No UI)",
-    "url": "https://github.com/jacobira/MtechLab10-ChatClientServer",
-    "github": "https://github.com/jacobira/MtechLab10-ChatClientServer"
+    "url": "https://github.com/jacobira/Lab10MTECH-ChatApp",
+    "github": "https://github.com/jacobira/Lab10MTECH-ChatApp"
   },
   {
     "name": "Multi-Timer App",
