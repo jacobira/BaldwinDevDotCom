@@ -26,6 +26,16 @@ export class PortfolioComponent implements OnInit {
     "name": "Multi-Timer App",
     "url": "http://www.baldwindev.com/multiTimer",
     "github": "https://github.com/jacobira/react-timer-project"
+  },
+  {
+    "name":"Baldwin Financial (Design Mockup)",
+    "url": "https://github.com/jacobira/BaldwinFinancial",
+    "github": "https://github.com/jacobira/BaldwinFinancial"
+  },
+  {
+    "name":"Golf Scorecard Application",
+    "url": "http://www.baldwindev.com/golfScorecard",
+    "github": "https://github.com/jacobira/MTechProject3Golf"
   }];
 
   navigate(item){
